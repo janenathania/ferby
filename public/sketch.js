@@ -84,6 +84,8 @@ let labels = [
     connectButton.class("button");
     connectButton.mousePressed(initSerial);
     connectButton.position(10,videoHeight+10);
+    // initSerial();
+    // serialController.init();
   }
   
   function draw() {
@@ -98,6 +100,8 @@ let labels = [
 
     fill(0);
     rectMode(CENTER);
+
+    // serialController.init();
   
     //translate(width/2, height/2);
   
