@@ -295,6 +295,9 @@ let labels = [
        else if(lup == true){
         image(lovbotright, width/2, height/2, windowHeight/3*2, windowHeight/3*2);
        }
+       else if(true){
+        image(lovbotright, width/2, height/2, windowHeight/3*2, windowHeight/3*2);
+       }
        else{
         imageMode(CENTER);
         image(lovbot, width/2, height/2, windowHeight/3*2, windowHeight/3*2);
